@@ -418,7 +418,7 @@
             // 获取课程列表信息以及分页信息 参数1表示第一页，默认值是1； 参数2表示每页多少条数据，默认值是8
             function getCourse(no = 1, size = 8) {
                 // 使用 axios 向后端API 发送请求获取数据 
-                axios.get('http://api.fuming.site:54254/course', {
+                axios.get('https://api.fuming.site/course', {
                     params: {
                         pageNo: no,
                         pageSize: size
